@@ -1,0 +1,14 @@
+{
+  "name": "drupal/entity_reference_view_display",
+  "type": "drupal-module",
+  "description": "An entity reference for View Displays",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/entity_reference_view_display",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/entity_reference_view_display",
+    "source": "http://cgit.drupalcode.org/entity_reference_view_display"
+  },
+  "require": { }
+}

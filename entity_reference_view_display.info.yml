@@ -1,0 +1,8 @@
+name: entity_reference_view_display
+type: module
+description: An entity reference for View Displays
+core: 8.x
+package: Numiko
+dependencies:
+    - drupal:views
+    - drupal:field

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains entity_reference_view_display.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function entity_reference_view_display_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the entity_reference_view_display module.
+    case 'help.page.entity_reference_view_display':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('An entity reference for View Displays') . '</p>';
+      return $output;
+
+    default:
+  }
+}
